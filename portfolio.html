@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nachiketa Rathour - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Add Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Add Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <!-- Add a gradient overlay div -->
+    <div class="gradient-overlay"></div>
+    
+    <nav class="glass-nav">
+        <button class="nav-toggle" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <div class="container">
+            <img src="optimized-profile_image.webp" 
+                 alt="Nachiketa Rathour" 
+                 class="profile-img animate__animated animate__fadeIn">
+            <h1 class="animate__animated animate__slideInDown">Nachiketa Rathour</h1>
+            <p class="animate__animated animate__slideInUp">MCA Student | Web Developer | Problem Solver</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2 class="animate__animated animate__fadeIn">About Me</h2>
+            <p class="animate__animated animate__fadeIn">I am currently pursuing MCA from Lovely Professional University. With a strong foundation in BCA, I am passionate about creating innovative solutions through technology.</p>
+            
+            <h3 class="animate__animated animate__fadeIn">Technical Skills</h3>
+            <div class="skills-grid">
+                <div class="skill-card animate__animated animate__fadeInUp">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1183/1183672.png" alt="Frontend" class="skill-icon">
+                    <h4>Frontend</h4>
+                    <p>HTML, CSS, JavaScript, React</p>
+                </div>
+                <div class="skill-card animate__animated animate__fadeInUp" style="animation-delay: 0.2s;">
+                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968322.png" alt="Backend" class="skill-icon">
+                    <h4>Backend</h4>
+                    <p>Node.js, Python, Java</p>
+                </div>
+                <div class="skill-card animate__animated animate__fadeInUp" style="animation-delay: 0.4s;">
+                    <img src="https://cdn-icons-png.flaticon.com/512/4248/4248443.png" alt="Database" class="skill-icon">
+                    <h4>Database</h4>
+                    <p>MySQL, MongoDB</p>
+                </div>
+                <div class="skill-card animate__animated animate__fadeInUp" style="animation-delay: 0.6s;">
+                    <img src="https://cdn-icons-png.flaticon.com/512/8699/8699814.png" alt="Tools" class="skill-icon">
+                    <h4>Tools</h4>
+                    <p>Git, VS Code, Docker</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2 class="animate__animated animate__fadeIn">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card animate__animated animate__fadeInLeft">
+                    <img src="https://img.freepik.com/free-vector/online-learning-isometric-concept_1284-17947.jpg" 
+                         alt="E-Learning Platform" 
+                         class="project-img">
+                    <div class="project-info">
+                        <h3>E-Learning Platform</h3>
+                        <p>A full-stack web application for online learning with video streaming and quiz features.</p>
+                        <p>Technologies: React, Node.js, MongoDB</p>
+                    </div>
+                </div>
+                <div class="project-card animate__animated animate__fadeInUp">
+                    <img src="https://img.freepik.com/free-vector/smart-home-concept-illustration_114360-1010.jpg" 
+                         alt="Smart Home Automation" 
+                         class="project-img">
+                    <div class="project-info">
+                        <h3>Smart Home Automation</h3>
+                        <p>IoT-based home automation system with mobile app control.</p>
+                        <p>Technologies: Python, React Native, Arduino</p>
+                    </div>
+                </div>
+                <div class="project-card animate__animated animate__fadeInRight">
+                    <img src="https://img.freepik.com/free-vector/chat-bot-concept-illustration_114360-5522.jpg" 
+                         alt="AI Chat Bot" 
+                         class="project-img">
+                    <div class="project-info">
+                        <h3>AI Chat Bot</h3>
+                        <p>Intelligent chatbot for customer service using natural language processing.</p>
+                        <p>Technologies: Python, TensorFlow, Flask</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="education-timeline">
+                <div class="education-card">
+                    <h3>Master of Computer Applications (MCA)</h3>
+                    <p>Lovely Professional University</p>
+                    <p>2023 - 2025</p>
+                </div>
+                <div class="education-card">
+                    <h3>Bachelor of Computer Applications (BCA)</h3>
+                    <p>Maulana Mazharul Haque Arabic and Persian University</p>
+                    <p>2019 - 2023</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
